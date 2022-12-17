@@ -1,0 +1,138 @@
+body{
+  background-color: #1f2937;
+  margin:0;
+  color: white;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.link{
+  display: flex;
+  justify-content: right;
+  padding-right: 4rem;
+}
+h1{
+  color: white;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 20px;
+}
+h3{
+  color:rgb(220, 209, 209);
+  font-family: 'Montserrat', sans-serif;
+}
+.first{
+  display: flex;
+  justify-content:center;
+  gap: 3rem;
+  background-color: #1f2937;
+  padding-top: 100px;
+  position: relative;
+}
+.bottom{
+   background-color: #1f2937;
+  padding: 50px 0 60px;
+}
+.second-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.first-cloud{
+  position:absolute;
+  right: 300px;
+  top: 40px;
+
+}
+a{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #EAF6F6;
+}
+p{
+  line-height: 2;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+hr{
+  border-bottom: none;
+  border-style: dotted none none;
+  border-color: #EAF6F6;
+  border-width: 6px;
+  width: 10%;
+  margin: 8% auto;
+}
+.last{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+
+}
+.code{
+  width:25%;
+  margin-left: 30px;
+  float: right;
+}
+.profile{
+  margin-top: 30px;
+}
+.intro{
+  width: 30%;
+  margin:auto;
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: black; /* Grey background */
+}
+
+.myskills {
+  text-align: right; /* Right-align text */ /* Add top padding */ /* Add bottom padding */
+  color: white; /* White text color */
+  padding-right: 10px;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+.C {width: 90%; background-color: rgb(24, 104, 183) ; border-radius: 8px; height:15px;} 
+.DS {width: 65%; background-color: rgb(24, 104, 183); border-radius: 8px;  height:15px;} 
+.Java{width: 70%; background-color:rgb(24, 104, 183); border-radius: 8px; height:15px;} 
+.HTML{width: 70%; background-color:rgb(24, 104, 183) ; border-radius:8px; height:15px;} 
+.CSS {width: 50%; background-color:rgb(24, 104, 183) ; border-radius:8px; height:15px;} 
+.Js {width: 70%; background-color:rgb(24, 104, 183) ; border-radius:8px; height:15px;} 
+.NS {width: 60%; background-color:rgb(24, 104, 183); border-radius: 8px; height:15px;} 
+.button{
+  background:rgb(24, 104, 183);
+  border-radius: 8px;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  line-height: 4;
+}
+.display{
+   font-size: 10px;
+}
